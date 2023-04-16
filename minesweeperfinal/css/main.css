@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(143, 219, 255);
+    background: url("https://greenjade.com/wp-content/uploads/2018/09/img.jpg");
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.lives {
+    font-size: 20px;
+}
+
+.timer {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+    color: #ffffff;
+    /* font-size: 45px; */
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.smiley {
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.hints {
+    margin-left: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.hint1 {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.hint2 {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.hint3 {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.safeclicks{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.minescounter{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #333333;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #ffffff;
+    /* font-size: 45px; */
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    font-size: 25px;
+}
+.minescounter1{
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #ffffff;
+    /* font-size: 45px; */
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.usedhint {
+    background-color: yellow;
+}
+
+/* .bombscounter {
+    margin-right: 400px;
+} */
+
+.btns {
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid black;
+    /* padding: 10px; */
+    width: 85px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 15px;
+    background-color: rgb(221, 192, 64);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+table {
+    background-color: black;
+    height: 200px;
+    width: 320px;
+    margin: auto;
+    /* border-radius: 10px; */
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+th, td {
+    border: 1px solid black;
+    margin: auto;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+.revealed {
+    background-color: rgb(228, 225, 225);
+}
+
+.modal {
+    display: none;
+    background-color: black;
+    border: 5px solid white;
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 300px;
+    left: calc(50% - 175px);
+    color: aliceblue;
+    margin: auto;
+}
